@@ -1,3 +1,8 @@
+#include <iostream>
+#include <string>
+#include <vector>
+
+
 //Function to convert integers to string
 
 
