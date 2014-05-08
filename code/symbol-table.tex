@@ -1,0 +1,61 @@
+\documentclass[18pt]{article}
+
+\begin{document}
+
+\begin{table}
+
+\centering
+
+\begin{tabular}{|c|c|c|c|}
+
+\hline
+
+ID & Symbol Name & Location & Notes \\
+\hline
+
+$000$ & scanned-element & some-hex & integer-variable -- hasn't been defined yet\\
+\hline
+
+$001$ & foo & some-hex & integer-constant -- has a value $00000010$ \\
+\hline
+
+$002$ & bar & some-hex & integer-constant -- has a value $00000100$ \\
+\hline
+
+$003$ & foobar & some-hex & float-variable -- hasn't been defined yet\\
+\hline
+\end{tabular}
+\caption{Symbol table after first pass}
+\end{table}
+
+
+
+\begin{table}
+
+\centering
+
+\begin{tabular}{|c|c|c|c|}
+
+\hline
+
+ID & Symbol Name & Location & Notes \\
+\hline
+
+$000$ & scanned-element & some-hex & integer-variable -- input statement based\\
+\hline
+
+$001$ & foo & some-hex & integer-constant -- has a value $00000010$ \\
+\hline
+
+$002$ & bar & some-hex & integer-constant -- has a value $00000100$ \\
+\hline
+
+$003$ & foobar & some-hex & float-variable -- expression based \\
+\hline
+\end{tabular}
+
+\caption{Symbol table after second pass}
+\end{table}
+
+
+\end{document}
