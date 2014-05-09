@@ -23,7 +23,7 @@ int main()
 
 {
 
-string s
+string s;
 
 for(int i=1;i<=N;i++)
 
